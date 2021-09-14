@@ -1,0 +1,11 @@
+// Compiles all scss files into dist/css/style.css
+@charset "UTF-8";
+@import "01-tools/__all";
+@import "02-settings/__all";
+@import "../../node_modules/jellyfish-ui/assets/scss/jellyfish/02-settings/__all";
+@import "03-generic/__all";
+@import "04-elements/__all";
+@import "05-vendor/__all";
+@import "06-objects/__all";
+@import "07-components/__all";
+@import "08-utilities/__all";

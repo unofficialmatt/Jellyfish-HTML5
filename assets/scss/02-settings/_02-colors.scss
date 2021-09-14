@@ -1,0 +1,89 @@
+$colors: (
+  // Base color is always set at 500, tints and shades should also be set where possible
+//  primary: (
+//    900: hsl(330, 79%, 20%),
+//    800: hsl(331, 74%, 27%),
+//    700: hsl(330, 70%, 36%),
+//    600: hsl(330, 68%, 40%),
+//    500: hsl(330, 63%, 47%),
+//    400: hsl(330, 66%, 57%),
+//    300: hsl(330, 77%, 76%),
+//    200: hsl(330, 87%, 85%),
+//    100: hsl(329, 100%, 96%)
+//  ),
+//  secondary: (
+//    900: hsl(188, 91%, 23%),
+//    800: hsl(186, 91%, 29%),
+//    700: hsl(184, 90%, 34%),
+//    600: hsl(182, 85%, 39%),
+//    500: hsl(180, 77%, 47%),
+//    400: hsl(176, 87%, 67%),
+//    300: hsl(174, 96%, 78%),
+//    200: hsl(172, 97%, 88%),
+//    100: hsl(171, 82%, 96%)
+//  ),
+//  neutral: (
+//    900: hsl(210, 24%, 16%),
+//    800: hsl(209, 20%, 25%),
+//    700: hsl(209, 18%, 30%),
+//    600: hsl(209, 14%, 37%),
+//    500: hsl(211, 12%, 49%),
+//    400: hsl(211, 13%, 65%),
+//    300: hsl(210, 16%, 82%),
+//    200: hsl(214, 15%, 91%),
+//    100: hsl(216, 33%, 97%),
+//    000: hsl(0, 0%, 100%)
+//  ),
+//  success: (
+//    900: hsl(81, 86%, 14%),
+//    800: hsl(81, 78%, 21%),
+//    700: hsl(83, 74%, 27%),
+//    600: hsl(83, 70%, 34%),
+//    500: hsl(83, 64%, 42%),
+//    400: hsl(83, 63%, 61%),
+//    300: hsl(83, 68%, 74%),
+//    200: hsl(83, 77%, 86%),
+//    100: hsl(83, 88%, 94%)
+//    ),
+//    warning: (
+//      900: hsl(43, 86%, 17%),
+//      800: hsl(43, 77%, 27%),
+//      700: hsl(43, 72%, 37%),
+//      600: hsl(42, 63%, 48%),
+//      500: hsl(42, 78%, 60%),
+//      400: hsl(43, 90%, 76%),
+//      300: hsl(45, 86%, 81%),
+//      200: hsl(45, 90%, 88%),
+//      100: hsl(45, 100%, 96%)
+//    ),
+//    error: (
+//      900: hsl(360, 92%, 20%),
+//      800: hsl(360, 85%, 25%),
+//      700: hsl(360, 79%, 32%),
+//      600: hsl(360, 72%, 38%),
+//      500: hsl(360, 67%, 44%),
+//      400: hsl(360, 71%, 66%),
+//      300: hsl(360, 77%, 78%),
+//      200: hsl(360, 82%, 89%),
+//      100: hsl(360, 100%, 97%)
+//    )
+);
+
+// Keys added to the map will have the following classes created for them: .button.*, callout.*, .tag.*, .text-*, .progress.*
+// Values can either be a string that matches a key from the $colors map, or a valid CSS value
+$theme-colors: (
+//  "primary": "primary",
+//  "secondary": "secondary",
+//  "success": "success",
+//  "warning": "warning",
+//  "error": "error"
+);
+
+// Keys added to the map will have the following classes created for them: .bg-*
+$background-colors: (
+//  "white": get-color(neutral,000),
+//  "dark": get-color(neutral, 900)
+);
+
+// $color-text: get-color(neutral, 900);
+// $color-headings-preferred: get-color(neutral, 800);

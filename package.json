@@ -1,0 +1,61 @@
+{
+  "name": "jellyfish-ui-html5-boilerplate",
+  "friendly_name": "Jellyfish UI HTML5 Boilerplate",
+  "version": "1.0.0",
+  "author": {
+    "name": "Matt Weet",
+    "email": "hello@mattweet.com",
+    "url": "https://www.mattweet.com"
+  },
+  "description": "Sets up a project for simple HTML5 websites using Jellyfish UI https://unofficialmatt.github.io/jellyfish/",
+  "homepage": "https://github.com/unofficialmatt/jellyfish-html5/",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unofficialmatt/jellyfish-html5.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unofficialmatt/jellyfish-html5/issues"
+  },
+  "private": false,
+  "keywords": [
+    "sass",
+    "scss",
+    "grunt",
+    "framework",
+    "boilerplate",
+    "framework",
+    "css framework",
+    "scss framework",
+    "front end",
+    "design",
+    "ui",
+    "html5"
+  ],
+  "browserslist": "last 5 versions",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "grunt": "^1.3.0",
+    "grunt-banner": "^0.6.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-imagemin": "^3.1.0",
+    "grunt-contrib-uglify-es": "^3.3.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-eslint": "^22.0.0",
+    "grunt-newer": "^1.3.0",
+    "grunt-postcss": "^0.9.0",
+    "grunt-sass": "^3.1.0",
+    "load-grunt-tasks": "^5.1.0",
+    "node-sass": "^4.14.1",
+    "postcss-pxtorem": "^4.0.1",
+    "time-grunt": "^2.0.0"
+  },
+  "dependencies": {
+    "jellyfish-ui": "^3.1.0"
+  }
+}
