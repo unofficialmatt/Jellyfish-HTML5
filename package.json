@@ -8,15 +8,15 @@
     "url": "https://www.mattweet.com"
   },
   "description": "Sets up a project for simple HTML5 websites using Jellyfish UI https://unofficialmatt.github.io/jellyfish/. Uses grunt to provision a local php server with browserSync.",
-  "homepage": "https://github.com/unofficialmatt/jellyfish-html5/",
+  "homepage": "https://github.com/unofficialmatt/Jellyfish-HTML5/",
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/unofficialmatt/jellyfish-html5.git"
+    "url": "https://github.com/unofficialmatt/Jellyfish-HTML5.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/unofficialmatt/jellyfish-html5/issues"
+    "url": "https://github.com/unofficialmatt/Jellyfish-HTML5/issues"
   },
   "private": false,
   "keywords": [
