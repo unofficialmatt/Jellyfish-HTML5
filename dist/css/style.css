@@ -14,6 +14,14 @@
 /**
  * Determine whether to use dark or light text on top of given color.
  */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+  Breakpoints are defined here
+  Note: Comment out or remove a whole size to prevent it being iterated,
+  or individual elements to inherit from the previously defined point.
+  The shorthand names are used in column and modifier classes.
+  breakpoint, container-width and col-gutter are the only !required values.
+  Sensible breakpoint values @link https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/
+*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /**
  * More sensible default box-sizing:
  * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
@@ -428,7 +436,7 @@ h3,
 h4,
 h5,
 h6 {
-  word-break: break-all; }
+  word-break: break-word; }
 
 /* TEXT TRANSFORM */
 
@@ -1109,7 +1117,7 @@ input:checked + .checkbox__control {
   position: relative;
   background: #c32c78;
   color: white; }
-  @media (max-width: 76.1875em) {
+  @media (max-width: 56.1875em) {
     .navbar .container {
       width: 100%;
       padding: 0; } }
@@ -1222,7 +1230,7 @@ input:checked + .checkbox__control {
   color: white;
   display: flex;
   align-items: center; }
-  @media (min-width: 76.25em) {
+  @media (min-width: 56.25em) {
     .hamburger {
       display: none; } }
   .hamburger.is-active {
@@ -1255,7 +1263,7 @@ input:checked + .checkbox__control {
   .hamburger-inner:before {
     background-color: white; }
 
-@media (min-width: 76.25em) {
+@media (min-width: 56.25em) {
   .navbar .container {
     display: flex;
     flex-wrap: wrap; }
@@ -1354,7 +1362,7 @@ input:checked + .checkbox__control {
   .navbar-item {
     font-size: 1em; } }
 
-@media (max-width: 76.1875em) {
+@media (max-width: 56.1875em) {
   .navbar-menu.is-off-canvas {
     position: fixed;
     z-index: 50000;
@@ -1385,11 +1393,11 @@ input:checked + .checkbox__control {
   align-items: center; }
   .navbar-top .hamburger {
     margin-left: auto; }
-  @media (min-width: 76.25em) {
+  @media (min-width: 56.25em) {
     .navbar-top {
       display: none !important; } }
 
-@media (max-width: 76.1875em) {
+@media (max-width: 56.1875em) {
   body.has-active-nav {
     overflow: hidden; }
     body.has-active-nav::before {
@@ -2446,11 +2454,11 @@ img.align-left, img.align-right, img.align-none, img.align-center {
 .invisible {
   visibility: hidden !important; }
 
-@media (min-width: 76.25em) {
+@media (min-width: 56.25em) {
   .hide-above-nav {
     display: none !important; } }
 
-@media (max-width: 76.1875em) {
+@media (max-width: 56.1875em) {
   .hide-below-nav {
     display: none !important; } }
 

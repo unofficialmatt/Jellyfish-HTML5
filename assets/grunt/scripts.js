@@ -9,7 +9,11 @@ module.exports = function (grunt) {
       separator: ';\r\n'
     },
     dist: {
-      src: ['node_modules/jellyfish-ui/dist/js/jellyfish.min.js', '<%= opts.build_dir %>/js/vendor/**/*.js', '<%= opts.build_dir %>/js/project/**/*.js'],
+      src: [
+        '<%= opts.build_dir %>/js/settings/**/*.js',
+        'node_modules/jellyfish-ui/dist/js/jellyfish.min.js',
+        '<%= opts.build_dir %>/js/vendor/**/*.js',
+        '<%= opts.build_dir %>/js/project/**/*.js'],
       dest: '<%= opts.dist_dir %>/js/project.js',
     }
   });

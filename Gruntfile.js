@@ -30,7 +30,7 @@ module.exports = function (grunt) {
   //console.log(grunt.config()); // Comment in to debug the config
 
   // Register tasks
-  grunt.registerTask('default', ['browserSync', 'watch']);
+  grunt.registerTask('default', ['php', 'browserSync', 'watch']);
   grunt.registerTask('build', ['newer:copy:npm', 'eslint', 'concat', 'uglify', 'import_sass_from_dirs', 'sass', 'postcss', 'usebanner', 'clean', 'imagemin']);
   grunt.registerTask('init', ['build', 'default']);
 

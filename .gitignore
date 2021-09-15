@@ -84,3 +84,4 @@ $RECYCLE.BIN/
 # track these files, if they exist
 !.gitignore
 !.editorconfig
+!.eslintrc

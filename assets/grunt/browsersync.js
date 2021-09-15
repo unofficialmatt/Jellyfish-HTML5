@@ -9,15 +9,15 @@ module.exports = function (grunt) {
         '<%= opts.dist_dir %>/css/style.min.css',
         '<%= opts.dist_dir %>/js/project.min.js',
         '<%= opts.dist_dir %>/img/*',
-        '**/*.html'
+        '**/*.html',
+        '**/*.php'
       ]
     },
     options: {
+      proxy: '<%= php.dev.options.hostname %>:<%= php.dev.options.port %>',
       watchTask: true,
-      server: {
-        baseDir: "./",
-        https: true
-      }
+      open: true,
+      port: 3000
     }
   });
 

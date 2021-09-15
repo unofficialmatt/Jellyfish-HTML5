@@ -1,40 +1,39 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+  Breakpoints are defined here
+  Note: Comment out or remove a whole size to prevent it being iterated,
+  or individual elements to inherit from the previously defined point.
+  The shorthand names are used in column and modifier classes.
+  breakpoint, container-width and col-gutter are the only !required values.
+  Sensible breakpoint values @link https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/
+*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 $breakpoints: (
-  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
-    Breakpoints are defined here
-    Note: Comment out or remove a whole size to prevent it being iterated,
-    or individual elements to inherit from the previously defined point.
-    The shorthand names are used in column and modifier classes.
-    breakpoint, container-width and col-gutter are the only !required values.
-    Sensible breakpoint values @link https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/
-  *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
   sm: (
-      breakpoint: 600px,
-      container-width: 100%,
-      container-gutter: 90px,
-      col-gutter: 20px,
-      root-font-size: 15px,
-      root-line-height: 1.48
-      ),
+    breakpoint: 600px,
+    container-width: 100%,
+    container-gutter: 90px,
+    col-gutter: 20px,
+    root-font-size: 15px,
+    root-line-height: 1.48,
+  ),
   md: (
-      breakpoint: 900px,
-      container-width: 90%,
-      container-max-width: 1140px,
-      container-gutter: 0px,
-      col-gutter: 30px,
-      root-font-size: 16px,
-      root-line-height: 1.5
-      ),
+    breakpoint: 900px,
+    container-width: 90%,
+    container-max-width: 1140px,
+    container-gutter: 0px,
+    col-gutter: 30px,
+    root-font-size: 16px,
+    root-line-height: 1.5,
+  ),
   lg: (
-      breakpoint: 1200px,
-      container-width: 1140px,
-      container-max-width: none,
-      col-gutter: 35px,
-      root-line-height: 1.6
-      ),
+    breakpoint: 1200px,
+    container-width: 1140px,
+    container-max-width: none,
+    col-gutter: 35px,
+    root-line-height: 1.6,
+  ),
   xl: (
-      breakpoint: 1800px,
-      container-width: 1280px,
-      col-gutter: 40px,
-      )
+    breakpoint: 1800px,
+    container-width: 1280px,
+    col-gutter: 40px,
+  ),
 );
-// TODO: MOVE THIS INTO JELLYFISH WITH MAP MERGE
