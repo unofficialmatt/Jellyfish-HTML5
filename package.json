@@ -59,6 +59,6 @@
     "time-grunt": "^2.0.0"
   },
   "dependencies": {
-    "jellyfish-ui": "^3.1.2"
+    "jellyfish-ui": "^3.1.3"
   }
 }
