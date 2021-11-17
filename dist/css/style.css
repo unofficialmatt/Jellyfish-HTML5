@@ -1277,7 +1277,7 @@ input:checked + .checkbox__control {
     .navbar-menu ul {
       display: flex;
       align-items: stretch;
-      flex: 1;
+      flex: 1 1 auto;
       flex-wrap: wrap; }
     .navbar-menu li {
       display: flex;
