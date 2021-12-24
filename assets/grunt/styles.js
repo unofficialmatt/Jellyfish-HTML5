@@ -5,7 +5,7 @@ module.exports = function (grunt) {
   // Task to run sass on defined scss file(s)
   grunt.config('sass', {
     options: {
-      implementation: require('node-sass'), // Use Node-sass as implementation option, rather than dart-sass
+      implementation: require('sass'),
       sourceMap: true
     },
     dist: {

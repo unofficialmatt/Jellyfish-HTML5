@@ -1,7 +1,7 @@
 {
   "name": "jellyfish-ui-html5-boilerplate",
   "friendly_name": "Jellyfish UI HTML5 Boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Matt Weet",
     "email": "hello@mattweet.com",
@@ -54,11 +54,11 @@
     "grunt-postcss": "^0.9.0",
     "grunt-sass": "^3.1.0",
     "load-grunt-tasks": "^5.1.0",
-    "node-sass": "^6.0.1",
     "postcss-pxtorem": "^4.0.1",
+    "sass": "^1.45.1",
     "time-grunt": "^2.0.0"
   },
   "dependencies": {
-    "jellyfish-ui": "^3.1.2"
+    "jellyfish-ui": "^3.2.2"
   }
 }
