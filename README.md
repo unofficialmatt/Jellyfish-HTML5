@@ -13,7 +13,7 @@ This starter repository allows you to spin up a new project based on the [Jellyf
 
 ## Getting started
 
-Make sure that you have npm, browsersync and grunt installed on your system following the guides on their respective websites. Then, clone the project into your required folder with git:
+Make sure that you have npm, browsersync and gulp installed on your system following the guides on their respective websites. Then, clone the project into your required folder with git:
 
 ```bash
 git clone https://github.com/unofficialmatt/Jellyfish-HTML5.git NAMEOFYOURPROJECTHERE
@@ -40,7 +40,7 @@ npm install
 Start watching for changes, initialise BrowserSync and more. This will provision a local php server allowing you to run both HTML and php files.
 
 ```bash
-grunt
+gulp
 ```
 
 ## Author

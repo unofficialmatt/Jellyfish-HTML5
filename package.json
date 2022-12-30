@@ -1,15 +1,14 @@
 {
   "name": "jellyfish-ui-html5-boilerplate",
   "friendly_name": "Jellyfish UI HTML5 Boilerplate",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "author": {
     "name": "Matt Weet",
     "email": "hello@mattweet.com",
     "url": "https://www.mattweet.com"
   },
-  "description": "Sets up a project for simple HTML5 websites using Jellyfish UI https://unofficialmatt.github.io/jellyfish/. Uses grunt to provision a local php server with browserSync.",
+  "description": "Sets up a project for simple HTML5 websites using Jellyfish UI https://unofficialmatt.github.io/jellyfish/. Uses gulp to provision a local php server with browserSync and run tasks such as SASS compilation and esLint.",
   "homepage": "https://github.com/unofficialmatt/Jellyfish-HTML5/",
-  "main": "Gruntfile.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/unofficialmatt/Jellyfish-HTML5.git"
@@ -22,7 +21,6 @@
   "keywords": [
     "sass",
     "scss",
-    "grunt",
     "framework",
     "boilerplate",
     "framework",
@@ -31,34 +29,37 @@
     "front end",
     "design",
     "ui",
+    "component",
+    "modular",
+    "gulp",
     "html5",
-    "php"
+    "php",
+    "local server"
   ],
   "browserslist": "last 5 versions",
   "devDependencies": {
-    "autoprefixer": "^9.8.6",
-    "cssnano": "^4.1.10",
-    "grunt": "^1.3.0",
-    "grunt-banner": "^0.6.0",
-    "grunt-browser-sync": "^2.2.0",
-    "grunt-contrib-clean": "^2.0.0",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-imagemin": "^2.0.1",
-    "grunt-contrib-uglify-es": "^3.3.0",
-    "grunt-contrib-watch": "^1.1.0",
-    "grunt-eslint": "^22.0.0",
-    "grunt-newer": "^1.3.0",
-    "grunt-php": "^3.0.0",
-    "grunt-phplint": "^0.1.0",
-    "grunt-postcss": "^0.9.0",
-    "grunt-sass": "^3.1.0",
-    "load-grunt-tasks": "^5.1.0",
-    "postcss-pxtorem": "^4.0.1",
-    "sass": "^1.45.1",
-    "time-grunt": "^2.0.0"
+    "autoprefixer": "^10.4.13",
+    "browser-sync": "^2.27.11",
+    "cssnano": "^5.1.14",
+    "del": "^6.1.1",
+    "es6-promise": "^4.2.8",
+    "gulp": "^4.0.2",
+    "gulp-banner": "^0.1.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-eslint": "^6.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-phplint": "^0.9.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "phplint": "^2.0.5",
+    "postcss-pxtorem": "^6.0.0",
+    "sass": "^1.57.1"
   },
   "dependencies": {
-    "jellyfish-ui": "^3.3.0"
+    "jellyfish-ui": "^3.4.0"
   }
 }

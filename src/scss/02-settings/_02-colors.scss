@@ -1,0 +1,24 @@
+// Pass a second argument of 'true' to makeColorPalette to generate .bg-* classes for this color palette
+$colors: (
+  //primary: makeColorPalette(#554994, 'true'),
+  //secondary: makeColorPalette(#cf447c),
+  neutral: makeColorPalette(hsl(211, 12%, 49%),'true'),
+  //success: makeColorPalette(#19c945),
+  //warning: makeColorPalette(#ddac24),
+  //error: makeColorPalette(#be2d2d),
+);
+
+// $color-white: #ffffff;
+// $color-black: get-color(neutral, 1000);
+
+// Keys added to the map will have the following classes created for them: .button.*, callout.*, .tag.*, .text-*, .progress.*
+// Values can either be a string that matches a key from the $colors map, or a valid CSS value
+$theme-colors: (
+);
+
+// Keys added to the map will have the following classes created for them: .bg-*
+$background-colors: (
+);
+
+// $color-text: $color-black;
+// $color-headings-preferred: get-color(neutral, 800);
