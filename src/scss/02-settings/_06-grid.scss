@@ -8,3 +8,6 @@
 // $base-col-name: xs;
 // $base-container-gutter: get-size(1.5); // define in px
 // $base-col-gutter: get-size(1); // define in px
+
+// Import Jellyfish
+@import "jellyfish-ui/src/scss/jellyfish/02-settings/_06-grid";

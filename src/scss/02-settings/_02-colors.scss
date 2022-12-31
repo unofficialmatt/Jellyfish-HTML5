@@ -8,7 +8,7 @@ $colors: (
   //error: makeColorPalette(#be2d2d),
 );
 
-// $color-white: #ffffff;
+//$color-white: #ffffff;
 // $color-black: get-color(neutral, 1000);
 
 // Keys added to the map will have the following classes created for them: .button.*, callout.*, .tag.*, .text-*, .progress.*
@@ -22,3 +22,6 @@ $background-colors: (
 
 // $color-text: $color-black;
 // $color-headings-preferred: get-color(neutral, 800);
+
+// Import Jellyfish
+@import "jellyfish-ui/src/scss/jellyfish/02-settings/_02-colors";

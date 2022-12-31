@@ -65,3 +65,6 @@ $font-sizes-h6: (
 //$weight-bold: 700;
 //$weight-xbold: 800;
 //$weight-black: 900;
+
+// Import Jellyfish
+@import "jellyfish-ui/src/scss/jellyfish/02-settings/_02-typography";

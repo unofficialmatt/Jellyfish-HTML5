@@ -24,3 +24,6 @@
 //$dark-mode-img-grayscale-perc: 50%;
 //$dark-mode-link-color: get-color(primary, 400);
 //$dark-mode-link-hover: get-color(primary);
+
+// Import Jellyfish
+@import "jellyfish-ui/src/scss/jellyfish/02-settings/_07-accessibility";
