@@ -1,7 +1,7 @@
 {
   "name": "jellyfish-ui-html5-boilerplate",
   "friendly_name": "Jellyfish UI HTML5 Boilerplate",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": {
     "name": "Matt Weet",
     "email": "hello@mattweet.com",
@@ -60,6 +60,6 @@
     "sass": "^1.57.1"
   },
   "dependencies": {
-    "jellyfish-ui": "^3.4.0"
+    "jellyfish-ui": "^3.4.1"
   }
 }
